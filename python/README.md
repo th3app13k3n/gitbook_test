@@ -30,7 +30,7 @@ for s in imgsize_list:
 line = [ s for s in imgsize_list if s.split()[0] == stmimg_num ]
 ```
 
-パッケージ, モジュールの場所確認
+#### パッケージ, モジュールの場所確認
 
 ```python
 import pytorch3d
