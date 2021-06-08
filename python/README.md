@@ -17,16 +17,18 @@
 ```python
 with open(img_size_txt, 'r') as size_txt:
     imgsize_list = size_txt.readlines()
-        
+
+
+
 # imgsize_list(=s)の行の内，s.split()[0]がstmimg_numに一致する行を取り出す．
 
-# リスト内包表記でないループ
+# 1.リスト内包表記でないループ
 line = []
 for s in imgsize_list:
     if s.split()[0] == stmimg_num:
         line.append(s)
 
-# リスト内包表記
+# 2.リスト内包表記
 line = [ s for s in imgsize_list if s.split()[0] == stmimg_num ]
 ```
 
