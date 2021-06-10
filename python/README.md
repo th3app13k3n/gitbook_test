@@ -1,6 +1,6 @@
 # Python
 
-#### リスト内包表記
+## リスト内包表記
 
 実行速度が普通のfor文より早い.  普通のfor文は以下が発生するため遅い.  
 1. リストからappend属性の取り出し．  
@@ -32,7 +32,7 @@ for s in imgsize_list:
 line = [ s for s in imgsize_list if s.split()[0] == stmimg_num ]
 ```
 
-#### パッケージ, モジュールの場所確認
+## パッケージ, モジュールの場所確認
 
 ```python
 import pytorch3d
@@ -44,5 +44,13 @@ pytorch3d.__path__
 import cv2
 
 cv2.__file__
+```
+
+## アノテーション
+
+numsの型はList\[int\]で、targetの型はint、twoSum\(\)の返り値はList\[int\]であることを示す注釈.
+
+```python
+def twoSum(self, nums: List[int], target: int) -> List[int]:
 ```
 
