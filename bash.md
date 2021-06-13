@@ -19,7 +19,6 @@ for ITEM in `seq -f %02g 0 101`
 do
     mkdir "${ITEM}"
 done
-
 ```
 
 ## string for
@@ -46,6 +45,5 @@ stylish
 abc
 unique
 abc
-
 ```
 

@@ -5,4 +5,5 @@
 * [Python](python/README.md)
   * [Numpy](python/numpy.md)
 * [Setting](setting.md)
+* [Linux](linux.md)
 
