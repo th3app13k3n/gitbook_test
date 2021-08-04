@@ -32,20 +32,6 @@ for s in imgsize_list:
 line = [ s for s in imgsize_list if s.split()[0] == stmimg_num ]
 ```
 
-## パッケージ, モジュールの場所確認
-
-```python
-import pytorch3d
-
-pytorch3d.__path__
-```
-
-```python
-import cv2
-
-cv2.__file__
-```
-
 ## アノテーション
 
 numsの型はList\[int\]で、targetの型はint、twoSum\(\)の返り値はList\[int\]であることを示す注釈.
