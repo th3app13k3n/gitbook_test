@@ -24,7 +24,12 @@ done
 ## string for
 
 ```text
-task="ambitious gentle intellectual rich stylish unique"
+task="ambitious
+gentle
+intellectual
+rich
+stylish
+unique"
 
 for i in ${task}; do
     echo ${i}
