@@ -40,5 +40,11 @@ Use Control+Alt+Backspace to terminate the X server?
   <No>
 ```
 
+```text
+$ sudo vim /usr/share/ibus/component/mozc.xml
+
+<layout>ja</layout>
+```
+
 
 
