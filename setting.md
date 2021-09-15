@@ -5,6 +5,7 @@
 * **Mozc でキーボードの配列が日本語にならないのを解決する** [**https://qiita.com/arai-wa/items/3123ecb350097f79c6ef**](https://qiita.com/arai-wa/items/3123ecb350097f79c6ef)\*\*\*\*
 * Ubuntu18.04にて、USキーボードを用いて英数字と日本語\(ひらがな\)の切り替えを行う方法 [https://magidropack.hatenablog.com/entry/2019/01/05/174048](https://magidropack.hatenablog.com/entry/2019/01/05/174048)
 * [https://golang.hateblo.jp/entry/ubuntu-keyboard-layout](https://golang.hateblo.jp/entry/ubuntu-keyboard-layout)
+* [https://johnyuan2000.hatenablog.com/entry/2020/07/06/163112](https://johnyuan2000.hatenablog.com/entry/2020/07/06/163112)
 
 ```text
 $ sudo dpkg-reconfigure keyboard-configuration
