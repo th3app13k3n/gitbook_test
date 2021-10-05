@@ -47,5 +47,11 @@ $ sudo vim /usr/share/ibus/component/mozc.xml
 <layout>ja</layout>
 ```
 
+## conda promptの\(BASE\)消す
+
+```text
+$ conda config --set changeps1 False
+```
+
 
 
