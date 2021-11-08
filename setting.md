@@ -72,3 +72,9 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 sudo apt-get update
 sudo apt-get install sublime-text
 ```
+
+## zsh\_prompt
+
+```
+PROMPT="%F{047}┌[%f%F{cyan}%m%f%F{047}]─[%f%F{255}%D{%H:%M-%d/%m}%f%F{047}]─[%f%F{magenta}%d%f%F{047}]%f"$'\n'"%F{047}└╼%f%F{green}$USER%f%F{yellow}$%f"
+```
