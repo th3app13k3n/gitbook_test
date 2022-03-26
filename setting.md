@@ -53,6 +53,14 @@ $ sudo vim /usr/share/ibus/component/mozc.xml
 <layout>ja</layout>
 ```
 
+### Kali usキーボード ctrl+spaceで入力切替
+
+[https://cocolofun.co.jp/linux-upgrade/](https://cocolofun.co.jp/linux-upgrade/)
+
+![](.gitbook/assets/ibus\_setting.png)
+
+![](.gitbook/assets/ctrl\_space\_setting.png)
+
 ## conda promptの(BASE)消す
 
 ```
